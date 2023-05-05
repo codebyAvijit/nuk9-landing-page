@@ -1,0 +1,20 @@
+.footer {
+  width: 75%;
+  height: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto;
+  border: 1px solid black;
+  background-color: red;
+  color: white;
+  padding: 0px 10px;
+}
+.footer p {
+  color: white;
+}
+
+.footer p:nth-child(2) {
+  cursor: pointer;
+  text-decoration: underline;
+}

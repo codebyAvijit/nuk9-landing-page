@@ -1,0 +1,36 @@
+.header {
+  width: 75%;
+  margin: 10px auto;
+  display: flex;
+  justify-content: space-between;
+}
+.left-header {
+  display: flex;
+}
+.left-header-heading {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-left: 5px;
+}
+.left-header-heading h1 {
+  word-spacing: -8px;
+}
+.right-header {
+  margin-top: 25px;
+}
+.right-header ul {
+  display: flex;
+  justify-content: space-evenly;
+}
+.right-header ul li {
+  margin: 5px 5px 0 0;
+  padding: 15px 8px;
+  cursor: pointer;
+}
+.right-header ul li:hover {
+  border-top: 5px solid black;
+  padding: 10px 8px;
+  color: red;
+  cursor: pointer;
+}

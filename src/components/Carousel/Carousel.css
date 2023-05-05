@@ -1,0 +1,14 @@
+.carousel {
+  margin: 20px 0px;
+  width: 100%;
+  height: 550px;
+}
+.cardata {
+  width: 100vw;
+  height: 550px;
+}
+.cardata img {
+  width: 100vw;
+  height: 550px;
+  object-fit: cover;
+}
